@@ -85,7 +85,6 @@
             // Compare the name to another string (e.g., "Matti")
             CompareName(name, "Matti");
 
-            // Keep console open when running under the debugger
             Console.WriteLine();
             Console.Write("Press Enter to exit...");
             Console.ReadLine();
