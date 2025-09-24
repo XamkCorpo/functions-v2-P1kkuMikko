@@ -13,10 +13,10 @@ namespace Calculator
             while (true)
             {
                 System.Console.WriteLine("Valitse laskutoimitus:");
-                System.Console.WriteLine("  1) Yhteenlasku");
-                System.Console.WriteLine("  2) Vähennyslasku");
-                System.Console.WriteLine("  3) Kertolasku");
-                System.Console.WriteLine("  4) Jakolasku");
+                System.Console.WriteLine("1: Yhteenlasku");
+                System.Console.WriteLine("2: Vähennyslasku");
+                System.Console.WriteLine("3: Kertolasku");
+                System.Console.WriteLine("4: Jakolasku");
                 System.Console.Write("Syötä valinta (1-4): ");
 
                 var input = System.Console.ReadLine();
@@ -117,7 +117,7 @@ namespace Calculator
             int valinta = ValitseLaskutoimitus();
 
             decimal a = KysyLuku("Syötä ensimmäinen luku: ");
-
+            
             decimal b;
             if (valinta == 4)
             {
